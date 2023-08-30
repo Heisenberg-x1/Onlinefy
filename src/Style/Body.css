@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.body{
+    /* border: 1px solid red; */
+    padding: 10px;
+    display: flex;
+    height: 70vh;
+}
+.sidebar {
+  padding: 15px;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: rgba(241, 241, 242, 255);
+  border-radius: 8px;
+  min-width: 25%;
+  max-width: max-content;
+}
+
+.corouselContainer{
+    background: rgba(241, 241, 242, 255);
+    border-radius: 8px;
+    width: fit-content;
+    border-radius: 5px;
+    height:65vh;
+    margin-left: 15px;
+}
+.corouselContainer img{
+    height: 65vh;
+}
+.sidebar-item:hover{
+ cursor: pointer;
+}
